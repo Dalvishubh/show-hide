@@ -22,7 +22,7 @@ var b=document.querySelector('#A1')
 
 var c=true
 
-function show(){
+function A(){
 if(c==true)
 {
   a.style.display="none" 
@@ -33,6 +33,22 @@ else if(c==false)
   a.style.display="block"
   c=true;
 }
+}
+
+var d=true
+
+function B(){
+  if(d==true)
+  {
+     b.style.display="none" 
+     d=false; 
+    }
+
+   else if(d==false)
+   {
+      b.style.display="block"  
+   } 
+
 
 }
 
